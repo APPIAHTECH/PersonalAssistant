@@ -52,7 +52,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-This is a small version of Cortana. A personal assistnat system. Given a reference context text (paragraph) and a question it returns the answer within the paragraph. The bot can only respond to economic inequality questions. This can be scaled by given more references, therefore the bot can have more knowledge about many topics, hence can respond to much more questions.
+This is a small version of Cortana. A personal assistant system. Given a reference context text (paragraph) and a question it returns the answer within the paragraph. The bot can only respond to economic inequality questions. This can be scaled by given more references, therefore the bot can have more knowledge about many topics, hence can respond to much more questions.
 
 Example: 
 
@@ -64,7 +64,7 @@ Answer = 40%
 
 ### Built With
 
-This are the techologies that are used.
+These are the technologies that are used.
 Server:
 * [Flask](https://flask.palletsprojects.com/en/2.0.x/)
 Client :
@@ -112,15 +112,15 @@ NPM is the recommended installation method when building large scale application
 To run the project.
 
 # Note run all section "Installation Setup", "Question Answering with a Fine-Tuned BERT", "Flask Server"
-1. Run the google colab project.That will generate a server link. The link will be use to communicate the client and serve. Each link is different, you will have something like : http://b4b8cf7e0cdd.ngrok.io
+1. Run the google colab project. That will generate a server link. The link will be used to communicate with the client and serve. Each link is different, you will have something like: http://b4b8cf7e0cdd.ngrok.io
 
-2. Copy the url host name. For instance b4b8cf7e0cdd
+2. Copy the URL hostname. For instance b4b8cf7e0cdd
 3. Open your project folder. Go to src/components. Open Karen.vue.
-4. Change path and path_abs url host name with yours. For instance b4b8cf7e0cdd (remember yours is different)
+4. Change path and path_abs URL hostname with yours. For instance b4b8cf7e0cdd (remember yours is different)
 const path = 'http://b4b8cf7e0cdd.ngrok.io/api/question';
 const path_abs = 'http://b4b8cf7e0cdd.ngrok.io/api/abstract';
 
-5. We are set and ready to go!. Init client, usualy listen at http://localhost:8080/
+5. We are set and ready to go!. Init client, usually listen at http://localhost:8080/
 * Run
   ```sh
   npm run serve
@@ -131,7 +131,7 @@ const path_abs = 'http://b4b8cf7e0cdd.ngrok.io/api/abstract';
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what makes the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
