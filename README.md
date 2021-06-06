@@ -1,22 +1,7 @@
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
 <!-- PROJECT -->
 <br />
   <h3 align="center">Personal Assistant</h3>
 </p>
-
 
 
 <!-- TABLE OF CONTENTS -->
@@ -37,11 +22,9 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -50,7 +33,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](images/screenshot.png)
 
 This is a small version of Cortana. A personal assistant system. Given a reference context text (paragraph) and a question it returns the answer within the paragraph. The bot can only respond to economic inequality questions. This can be scaled by given more references, therefore the bot can have more knowledge about many topics, hence can respond to much more questions.
 
@@ -66,23 +49,23 @@ Answer = 40%
 
 These are the technologies that are used.
 Server:
-* [Flask](https://flask.palletsprojects.com/en/2.0.x/)
+* [Flask](https://flask.palletsprojects.com/en/2.0.x/)<br>
 Client :
-* [Vuejs](https://vuejs.org/)
+* [Vuejs](https://vuejs.org/)<br>
 Utils:
-* [GoogleColab](https://research.google.com/colaboratory/)
+* [GoogleColab](https://research.google.com/colaboratory/)<br>
 
 Model: Fine-Tuned BERT, from the transformers library
-* [GoogleColab](https://huggingface.co/transformers/pretrained_models.html)
+* [GoogleColab](https://huggingface.co/transformers/pretrained_models.html)<br>
 
 Dataset: Fine-Tuned BERT, from the transformers library
-* [EconomicInequality](https://rajpurkar.github.io/SQuAD-explorer/explore/1.1/dev/Economic_inequality.html?model=r-net+%20(ensemble)%20(Microsoft%20Research%20Asia)&version=1.1)
+* [EconomicInequality](https://rajpurkar.github.io/SQuAD-explorer/explore/1.1/dev/Economic_inequality.html?model=r-net+%20(ensemble)%20(Microsoft%20Research%20Asia)&version=1.1)<br>
 
 Voice: TTS
-* [SpeechSynthesisUtterance](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance)
+* [SpeechSynthesisUtterance](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance)<br>
 
 Speech Recognition: STT
-* [SpeechRecognition](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition)
+* [SpeechRecognition](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition)<br>
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -97,13 +80,13 @@ NPM is the recommended installation method when building large scale application
 
 ### Installation
 
-# install deps
+#### install deps
 1. npm install
 
-# serve examples at localhost:8080
+#### serve examples at localhost:8080
 2. npm run serve
 
-# Acces to GoogleColab
+#### Acces to GoogleColab
 3. [GoogleColab](https://colab.research.google.com/drive/1Lq2Gf06-kiwb4XSBYCyLTnojRBad5cVZ?usp=sharing)
 
 <!-- USAGE EXAMPLES -->
@@ -111,7 +94,7 @@ NPM is the recommended installation method when building large scale application
 
 To run the project.
 
-# Note run all section "Installation Setup", "Question Answering with a Fine-Tuned BERT", "Flask Server"
+#### Note run all section "Installation Setup", "Question Answering with a Fine-Tuned BERT", "Flask Server"
 1. Run the google colab project. That will generate a server link. The link will be used to communicate with the client and serve. Each link is different, you will have something like: http://b4b8cf7e0cdd.ngrok.io
 
 2. Copy the URL hostname. For instance b4b8cf7e0cdd
