@@ -33,7 +33,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](images/screenshot.png)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/APPIAHTECH/PersonalAssistant/blob/main/images/screenshot.PNG)
 
 This is a small version of Cortana. A personal assistant system. Given a reference context text (paragraph) and a question it returns the answer within the paragraph. The bot can only respond to economic inequality questions. This can be scaled by given more references, therefore the bot can have more knowledge about many topics, hence can respond to much more questions.
 
@@ -47,7 +47,7 @@ Answer = 40%
 
 ### Built With
 
-These are the technologies that are used.
+These are the technologies that are used.<br>
 Server:
 * [Flask](https://flask.palletsprojects.com/en/2.0.x/)<br>
 Client :
@@ -56,9 +56,9 @@ Utils:
 * [GoogleColab](https://research.google.com/colaboratory/)<br>
 
 Model: Fine-Tuned BERT, from the transformers library
-* [GoogleColab](https://huggingface.co/transformers/pretrained_models.html)<br>
+* [BERT](https://huggingface.co/transformers/pretrained_models.html)<br>
 
-Dataset: Fine-Tuned BERT, from the transformers library
+Dataset: Economic Inequality
 * [EconomicInequality](https://rajpurkar.github.io/SQuAD-explorer/explore/1.1/dev/Economic_inequality.html?model=r-net+%20(ensemble)%20(Microsoft%20Research%20Asia)&version=1.1)<br>
 
 Voice: TTS
@@ -81,11 +81,14 @@ NPM is the recommended installation method when building large scale application
 ### Installation
 
 #### install deps
-1. npm install
+1. ```sh
+    npm install
+    ``` 
 
 #### serve examples at localhost:8080
-2. npm run serve
-
+2. ```sh
+    npm run serve
+    ``` 
 #### Acces to GoogleColab
 3. [GoogleColab](https://colab.research.google.com/drive/1Lq2Gf06-kiwb4XSBYCyLTnojRBad5cVZ?usp=sharing)
 
@@ -99,8 +102,8 @@ To run the project.
 
 2. Copy the URL hostname. For instance b4b8cf7e0cdd
 3. Open your project folder. Go to src/components. Open Karen.vue.
-4. Change path and path_abs URL hostname with yours. For instance b4b8cf7e0cdd (remember yours is different)
-const path = 'http://b4b8cf7e0cdd.ngrok.io/api/question';
+4. Change path and path_abs URL hostname with yours. For instance b4b8cf7e0cdd (remember yours is different)<br>
+const path = 'http://b4b8cf7e0cdd.ngrok.io/api/question';<br>
 const path_abs = 'http://b4b8cf7e0cdd.ngrok.io/api/abstract';
 
 5. We are set and ready to go!. Init client, usually listen at http://localhost:8080/
