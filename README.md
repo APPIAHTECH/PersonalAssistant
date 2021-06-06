@@ -136,6 +136,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Stephen Appiah- [@your_linkedin](https://www.linkedin.com/in/stephenappiahtech/) - stephenappiahtech@example.com
+Stephen Appiah- [@your_linkedin](https://www.linkedin.com/in/stephenappiahtech/) - stephenappiahtech@gmail.com
 
 Project Link: [https://github.com/APPIAHTECH/PersonalAssistant](https://github.com/APPIAHTECH/PersonalAssistant)
