@@ -136,3 +136,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Stephen Appiah- [@linkedin](https://www.linkedin.com/in/stephenappiahtech/) - stephenappiahtech@gmail.com
 
 Project Link: [https://github.com/APPIAHTECH/PersonalAssistant](https://github.com/APPIAHTECH/PersonalAssistant)
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [ChrisMcCormickAI](Applying BERT to Question Answering (SQuAD v1.1))
+
+
