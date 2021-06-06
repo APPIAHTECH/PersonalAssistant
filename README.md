@@ -88,7 +88,7 @@ NPM is the recommended installation method when building large scale application
     ``` 
 #### Acces to GoogleColab
 3. [GoogleColab](https://colab.research.google.com/drive/1Lq2Gf06-kiwb4XSBYCyLTnojRBad5cVZ?usp=sharing)
-4. Dowload the dataset: <br>
+4. Download the dataset: <br>
 * [dev-v2.0.json](https://drive.google.com/file/d/14TfPARpPDtYrc3lwrc9Rar-IJiMzkKgc/view?usp=sharing)
 * [train-v2.0.json](https://drive.google.com/file/d/1OwWdy7D2B57kCd6UaCDeY2nz9MrPUeVG/view?usp=sharing)
 5. Change the current dataset path, with yours <br>
